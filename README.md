@@ -1,8 +1,9 @@
-Questions
-    1. In a few sentences, describe the general architecture of your interface monitor. [1 mark]
+
+  
+   1. In a few sentences, describe the general architecture of your interface monitor. [1 mark]
 
 
-
+TODO
 
 
 
@@ -16,6 +17,7 @@ Questions
 
     2. In a few sentences, describe the general architecture of your network monitor. [1 mark]
 
+TODO
 
 
 
@@ -28,9 +30,7 @@ Questions
 
 
 
-
-    3. Could the interface monitor and network monitor all be contained within one process, if so how?
-[1 mark]
+    3. Could the interface monitor and network monitor all be contained within one process, if so how?[1 mark]
 
 This could be done with threads, where each monitor would get it's own thread, running in parallel with other processes.
 
